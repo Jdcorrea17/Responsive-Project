@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="./images/mario-8-bit.png">
+    <title>Nintendo Website</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header-column">
+            <div class="header-menu-bar">
+                <div class="header-mainlogo">
+                    <img src="./images/nintendo-logo.png" alt="Nintendo Logo" class="header-logo">
+                </div>
+                <div class="explore">
+                        <span><i class="fa-regular fa-compass" style="color: #e20013;"></i></i></span>
+                        <span><a href="#">Explore</a></span>
+                </div>
+                <div class="header-shop">
+                        <span><i class="fa-solid fa-bag-shopping" style="color: #e20013;"></i></span>
+                        <span><a href="#">Shop</a></span>
+                </div>
+                <div class="header-support">
+                        <span><i class="fa-solid fa-circle-question" style="color: #e20013;"></i></span>
+                        <span><a href="#" class="support">Support</a></span>
+                </div>
+            </div>
+            <div class="header-account">
+                <div class="header-searchBar">
+                    <span><i class="fa-solid fa-magnifying-glass" style="color: #434242;"></i></span>
+                    <span><input type="text" class="header-search" placeholder="Search" style="text-align: end; font-size: 15px; color: #434242;"></span>    
+                </div>
+                <div class="header-wishList">
+                    <div class="span"><a href="#" title="heart"><i class="fa-solid fa-heart"></i></a></div>
+                </div>  
+                <div class="header-cart">
+                    <div class="span"><a href="#" title="cart"><i class="fa-solid fa-cart-shopping"></i></a></div>
+                </div>
+                <div class="header-login">
+                    <button title="sign-up">
+                        <i class="fa-solid fa-user fa-lg" style="color: #e20013;"></i></i>
+                        Log in/Sign Up
+                    </button>
+                    <div>
+                        <a href="#"><img src="./images/flag.png" alt="USA Flag" height="200"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="shipping-points">
+        <div class="shipping">
+           <i class="fa-solid fa-truck-arrow-right fa-lg" style="color: #e20013;"></i>
+            <p><strong>Free Shipping</strong> on orders $50 or more. <a href="#">Restrictions Apply.</a></p> 
+        </div>
+        <hr>
+        <div class="points">
+            <i class="fa-solid fa-coins fa-lg" style="color: #e20013;"></i>
+            <p>Redeem your <strong>My Nintendo Points</strong> on for <a href="#">fun rewards</a></p>
+        </div>
+    </div>
+
+    <div class="game-preview">
+        
+        <div class="game-information">
+            <div class="mainpage-game">
+                <div class="page-location">
+                    <a href="#" title="Store">Store ></a> <a href="#">Games ></a>  <a href="#" title="hades 2" id="hades2-link">Hades II &ndash; Nintendo Switch&trade; 2 Edition </a>  
+                </div>
+                <br>
+                <div class="preview-card">
+                    <input type="radio" name="hero" id="g1" checked>
+                    <input type="radio" name="hero" id="g2">
+                    <input type="radio" name="hero" id="g3">
+                    <input type="radio" name="hero" id="g4">
+                    <input type="radio" name="hero" id="g5">
+                    <input type="radio" name="hero" id="g6">
+
+                    <div class="card-image">
+                        <img src="./images/hades2.avif" alt="" height="200" class="i1" >
+                        <img src="./images/game-preview.jpg" alt="" height="200"class="i2" >
+                        <img src="./images/game-preview2.jpg" alt="" height="200" class="i3" >
+                        <img src="./images/game-preview3.webp" alt=""height="200" class="i4" >
+                        <img src="./images/hades-2-story.avif" alt=""height="200" class="i5" >
+                        <img src="./images/game-preview4.jpg" alt="" class="i6">
+                    </div>
+                    <div class="img-slider">
+                        <label for="g1"><img src="./images/hades2.avif" alt="" height="200"></label>
+                        <label for="g2"><img src="./images/game-preview.jpg" alt="" height="200"></label>
+                        <label for="g3"><img src="./images/game-preview2.jpg" alt="" height="200"></label>
+                        <label for="g4"><img src="./images/game-preview3.webp" alt=""height="200"></label>
+                        <label for="g5"><img src="./images/hades-2-story.avif" alt=""height="200"></label>
+                        <label for="g6"><img src="./images/game-preview4.jpg" alt=""height="200"></label>
+                    </div>
+                </div>
+                <br>
+                <div class="rated-section">
+                    <div class="rated">
+                        <img src="./images/ESRB_Teen.svg.png" alt="Rated Teen logo" height="200">
+                    </div>
+                    <div class="rated-info">
+                        <p>Alcohol Reference, Blood, Mild Language, Suggestive Themes, Violence</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="gamecard-name">
+                <div class="game-title">
+                    <h1>Hades II &ndash; Nintendo Switch&trade; 2 Edition</h1>
+                    <div class="selectversion-p">
+                        <p>Select a version</p>
+                    </div>
+                    <div class="version">
+                        <div class="switch2-radius">
+                                <div class="input-switch2">
+                                    <input type="checkbox" name="ns2" id="switch2">
+                                </div>
+                                <div class="switch-p">
+                                    <a href="#" title="switch2">Nintendo Switch 2</a>
+                                </div>
+                        </div>
+                        <div class="switch">
+                            <div class="input-switch">
+                                <input type="checkbox" name="ns" id="switch">
+                            </div>
+                            <div class="switch-p">
+                                <a href="#" title="switch2">Nintendo Switch</a>
+                            </div>
+                            
+                            </button>
+                        </div>
+                        <div class="upgrade">
+                            <div class="input-upgrade">
+                                <input type="checkbox" name="pack" id="upgrade">
+                            </div>
+                            <div class="upgrade-p">
+                                <a href="#" title="switch2">Upgrade Pack</a>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="upgrade-pack">
+                        <a href="#">What's an upgrade pack?</a>
+                    </div>
+                    <div class="edition-selector">
+                        <p>Select an edition</p>
+                    </div>
+                    
+                    <div class="product-card">
+                        <input type="checkbox" id="toggle" class="toggle">
+                        <label for="toggle" class="product-header">
+                            <div>
+                            <h2>Digital</h2>
+                            <p>Hades II – Nintendo Switch&trade; 2 Edition</p>
+                            </div>
+                            <span class="arrow"></span>
+                        </label>
+                        <div class="product-options">
+                            <div class="option-highlight">
+                                <div class="digital-title">
+                                    <a href="#">
+                                        <h3>Digital</h3>
+                                        <p>Hades II – Nintendo Switch&trade; 2 Edition</p>
+                                    </a>
+                                </div>
+                                <div class="n2-dropmenu">
+                                    <a href="#">
+                                    <p>$22.49</p></a>
+                                </div>
+                        </div>
+
+                            <div class="option-highlight">
+                                <div class="digital-title">
+                                    <a href="#">
+                                        <h3>Physical</h3>
+                                        <p>Hades II – Nintendo Switch&trade; 2 Edition</p>
+                                    </a>
+                                </div>
+                                <div class="n2-dropmenu">
+                                    <a href="#">
+                                    <p>$49.99</p></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sale">
+                        <p>Sales ends: 1/6/2026 at 01:59 a.m CST</p>
+                    </div>
+                    <div class="gamePrice">
+                        <div class="price">
+                            <h3>$22.49</h3>
+                            <p class="slashed-price">$29.99</p>
+                            <p class="sale-price">-25%</p>
+                        </div>
+                        <div class="heart-wish">
+                            <a href="#"><i class="fa-regular fa-heart fa-xl" style="color: #e20013;"></i></a>
+                        </div>
+                    </div>
+                    
+                    <button title="download" class="button-download">
+                        <div class="download">
+                            <div class="download-icon">
+                                <i class="fa-solid fa-arrow-up-from-bracket fa-xl" style="color: white;"></i>
+                            </div>
+                            <div class="directDownload-h3">
+                                <h3 class="download">Direct Download</h3>
+                            </div>
+                        </div>
+                    </button>
+                    
+                    <div class="directdownload-info">
+                        <p>This item will be sent to your system automatically after purchase.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="flex-section">
+        <div class="features">
+            <div class="feature-device">
+                <i class="fa-solid fa-bullhorn fa-xl" style="color: #e20013;"></i>
+                <h3>Nintendo Switch 2 Features</h3>
+            </div>
+            <div class="feature-info">
+                <p>120 fps performance at 1080p resolution in TV Mode</p>
+                <p>60 fps performance at 1080p in Handheld Mode</p>
+                <p>Enhanced texture quality</p>
+                <p>Enhanced visual effects</p>
+            </div>
+        </div>
+    </div>
+
+    <section class="backgroundimage">
+        <div class="enhanced">
+            <div class="enhanced-info">
+                <h2>Enhanced for Nintendo Switch 2</h2>
+                <p>Play in up to 120 fps in TV mode (compatible TV required) and 60 fps in handheld mode. Plus, all versions of the game offer cross-save support—you can transfer your save data through a simple in-game menu to keep the action going anywhere.</p>
+            </div>
+            <div class="img-switch">
+                <img src="./images/hades2-switch.png" alt="" height="200">
+            </div>
+        </div>
+    </section>
+
+    <section class="item-info">
+        <div class="info-padding">
+            <h2>Related tags</h2>
+            <div class="tags">
+                <button title="action">Action</button>
+                <button title="action">Raise your stats</button>
+                <button title="action">Random maps & levels</button>
+                <button title="action">Start over if you fail</button>
+                <button title="action">Voiced characters</button>
+            </div>
+            <h2>About this item</h2>
+            <hr>
+
+            <div class="game1">
+                <i class="fa-solid fa-database fa-xl"></i>
+                <div class="game-info1">
+                    <h3>Game File Size</h3>
+                    <div class="game1-ptag">
+                        <p>Nintendo Switch: 6.6 GB</p>
+                        <p>Nintendo Switch 2: 9.6 GB</p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="game1">
+                <img src="./images/nintendo (2).png" alt="" height="28">
+
+                <h3>Supported Play Modes</h3>
+                <div class="game-style">
+                    
+                    <div class="tv-mode">
+                        <i class="fa-solid fa-tv"></i>
+                        <p>TV Mode</p>
+                    </div>
+                    <div class="tabletop">
+                        <img src="./images/switch.png" alt="" height="30">
+                        <p>Tabletop Mode</p>
+                    </div>
+                    <div class="handheld">
+                        <img src="./images/nintendo (1).png" alt="" height="30">
+                        <p>Handheld Mode</p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="game1">
+                <i class="fa-solid fa-people-group fa-xl"></i>
+                <h3 class="fam-group">Nintendo Account Family-Group Lending</h3>
+                <div class="game1-fam">   
+                    <p>Supported</p>
+                </div>
+            </div>
+            <hr>
+
+            <div class="game1">
+                <img src="./images/direction.png" alt="" height="30">
+                <h3>Genre</h3>
+                <div class="game1-action">
+                    <a href="#">Action</a>
+                </div>
+            </div>
+            <hr>
+            <div class="game1">
+                <img src="./images/online.avif" alt="" height="30">
+                <h3>Nintendo Switch Online</h3>
+                <div class="game1-online">
+                    <a href="#">Save Data Cloud</a>
+                    <p>Play online, access classic NES&trade; and Super NES&trade; games, and more with a Nintendo Switch Online membership.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+            <hr>
+
+            <div class="game1">
+                <img src="./images/gray-switch.png" alt="" height="34">
+                <h3>System</h3>
+                <div class="game1-system">
+                    <a href="#">Nintendo Switch 2</a>
+                </div>
+            </div>
+            <hr>
+            
+            <div class="game1">
+                <i class="fa-solid fa-building fa-xl"></i>
+                <h3>Publisher</h3>
+                <div class="game1-developer">
+                    <a href="#">Supergiant Games</a>
+                </div>
+            </div>
+            <hr>
+
+            <div class="game1">
+                <i class="fa-solid fa-wrench fa-flip-horizontal fa-lg"></i>
+                <h3>Developer</h3>
+                <div class="game1-developer">
+                    <a href="#">Supergiant Games</a>
+                </div>
+            </div>
+            <hr>
+
+            <div class="game1">
+                <i class="fa-solid fa-globe"></i>
+                <h3>Supported Languages</h3>
+                <div class="game1-lang">
+                    <p>Japanese, French, German, Italian, Spanish, Korean, Russian, Simplified Chinese, Brazilian Portuguese, Traditional Chinese, American English</p>
+                </div>
+            </div>
+            <hr>
+            <div class="game1">
+                <i class="fa-regular fa-calendar-days"></i>
+                <h3>Release Date</h3>
+                <div class="game1-date">
+                    <p>September 25, 2025</p>
+                </div>
+            </div>
+            <hr>
+            <div class="game1">
+                <i class="fa-solid fa-gear"></i>
+                <h3>ESRB Rating</h3>
+                    <div class="game1-rating">
+                        <img src="./images/ESRB_Teen.svg.png" alt="Rating" height="50">
+                        <p>Alcohol Reference, Blood, Mild Language, Suggestive Themes, Violence</p>
+                    </div>
+            </div>
+            <hr>
+        </div>
+    </section>
+    <br>
+    <br>
+    <h2 class="othergames-title">More like this</h2>
+    <section class="best-sellers">
+        <div class="other-games">
+            <div class="digital-card">
+                <a href=""><img src="./images/hades-card.avif" alt="hades game" height="220"></a>
+                <h3>Hades&trade;</h3>
+                <p>11/17/20</p>
+                <div class="price-info">
+                    <h3>$24.99</h3>
+                    <div class="games-icon">
+                        <img src="./images/direction.webp" alt="dpad icon" height="15">
+                        <p>Games</p>
+                        <div class="game-heart">
+                            <a href=""><img src="./images/love.png" alt="heart icon"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="digital-card">
+                <a href=""><img src="./images/cyberpunk-card.avif" alt="Cyberpunk 2077 game" height="220"></a>
+                <h3>Cyberpunk 2077</h3>
+                <p>06/05/25</p>
+                <div class="price-info">
+                    <h3>$69.99</h3>
+                    <div class="games-icon">
+                        <img src="./images/direction.webp" alt="d-pad icon" height="15">
+                        <p>Games</p>
+                        <div class="game-heart">
+                            <a href=""><img src="./images/love.png" alt="heart icon"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="digital-card">
+                <a href=""><img src="./images/mario-card.avif" alt="Mario Kart World game" height="220"></a>
+                <h3>Mario Kart&trade; World</h3>
+                <p>06/05/25</p>
+                <div class="price-info">
+                    <h3>$79.99</h3>
+                    <div class="games-icon">
+                        <img src="./images/direction.webp" alt="d-pad icon" height="15">
+                        <p>Games</p>
+                        <div class="game-heart">
+                            <a href=""><img src="./images/love.png" alt="heart icon"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="digital-card">
+                <a href=""><img src="./images/metroid-card.avif" alt="Metroid Prime Beyond Game" height="220"></a>
+                <h3>Metroid Prime&trade; Beyond</h3>
+                <p>12/04/25</p>
+                <div class="price-info">
+                    <h3>$69.99</h3>
+                    <div class="games-icon">
+                        <img src="./images/direction.webp" alt="d-pad icon" height="15">
+                        <p>Games</p>
+                        <div class="game-heart">
+                            <a href=""><img src="./images/love.png" alt="heart icon"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="digital-card">
+                <a href=""><img src="./images/pokemon-card.avif" alt="Pokémon Legends: Z-A Game" height="220"></a>
+                <h3>Pokémon&trade; Legends: Z-A </h3>
+                <p>10/16/25</p>
+                <div class="price-info">
+                    <h3>$69.99</h3>
+                    <div class="games-icon">
+                        <img src="./images/direction.webp" alt="d-pad icon" height="15">
+                        <p>Games</p>
+                        <div class="game-heart">
+                            <a href=""><img src="./images/love.png" alt="heart icon"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>    
+    <br>
+    <br>
+    <div class="warning-message">
+        <p class="warning">WARNING: If you have epilepsy or have had seizures or other unusual reactions to flashing lights or patterns, consult a doctor before playing video games. All users should read the Health and Safety Information available in the system settings before using this software.</p>
+        <p class="warning">&copy; Supergiant Games, LLC 2025. All rights reserved.</p>
+    </div>
+    <div class="nintendo-beforefooter">
+        <img src="./images/nintendo-logo.png" alt="" height="190">
+    </div>
+    <footer>
+        <div class="footer">
+            <div class="about-footer">
+                <h3>About Nintendo</h3>
+                <a href="#">Careers</a>
+                <a href="#">Corporate Social Responsibility</a>
+            </div>
+            <hr>
+            <div class="order-footer">
+                <h3>Orders</h3>
+                <a href="#">Order Details</a>
+                <a href="#">Shipping info</a>
+                <a href="#">Refunds and returns</a>
+                <a href="#">FAQ</a>
+            </div>
+            <hr>
+            <div class="parents-footer">
+                <h3>Parents</h3>
+                <a href="#">Info for parents</a>
+                <a href="#">Parental controls</a>
+            </div>
+            <hr>
+            <div class="community-footer">
+                <h3>Community guidelines</h3>
+                <a href="#">Community guidelines</a>
+                <a href="#">Online safety</a>
+            </div>
+            <hr>
+            <div class="shop-footer">
+                <h3>Shop</h3>
+                <a href="#">Games</a>
+                <a href="#">Hardware</a>
+                <a href="#">Sales and deals</a>
+                <a href="#">Exclusives</a>
+                <a href="#">Nintendo Switch Online</a>
+                <a href="#">Nintendo Store US</a>
+            </div>
+            <hr>
+            <div class="support-footer">
+                <h3>Support</h3>
+                <a href="#">Nintendo Switch 2</a>
+                <a href="#">Nintendo Switch</a>
+                <a href="#">Nintendo Account</a>
+                <a href="#">Apps and other products</a>
+                <a href="#">Other systems</a>
+                <a href="#">Repairs</a>
+                <a href="#">Nintendo product recycling</a>
+                <a href="#">Warranty</a>
+                <a href="#">Licensed product information</a>
+            </div>
+            <hr>
+            <div class="privacy-footer">
+                <h3>Privacy</h3>
+                <a href="#">Privacy policy</a>
+                <a href="#">Cookies and interest-based ads</a>
+            </div>
+            <hr>
+            <div class="policies-footer">
+                <h3>Documents and policies</h3>
+                <a href="#">Health and safety precautions</a>
+                <a href="#">Wireless regulatory info</a>
+                <a href="#">Supply chain transparency</a>
+            </div>
+        </div>    
+        
+
+        <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-facebook fa-xl" style="color: rgb(93, 92, 92);"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram fa-xl" style="color: rgb(93, 92, 92);"></i></a>
+            <a href="#"><i class="fa-brands fa-square-x-twitter fa-xl" style="color: rgb(93, 92, 92);"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube fa-xl" style="color: rgb(93, 92, 92);"></i></a>
+        </div>
+        <div class="final-info">
+            <p>&copy; Nintendo.Games are property of their respective owners.Nintendo of America Inc.Headquarters are in Redmond, Washington, USA</p>
+            <div class="footer-link">
+                <a href="#">Contact us</a>
+                <a href="#">Website feedback</a>
+                <a href="#">Terms of Use</a>
+            </div>
+            <div class="flag">
+                <a href="#"><img src="./images/flag.png" alt="USA Flag" height="25"></a>
+                <a href="#"><p>English (United States)</p></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
