@@ -1212,4 +1212,596 @@ hr{
     color: white;
     font-weight: bold;
     text-decoration: underline;
+
+}
+  /* RESPONSIVE MEDIA QUERIES */
+
+/* Small Mobile (340px - 480px) */
+@media only screen and (max-width: 480px) {
+    header {
+        height: auto;
+        position: relative;
+        z-index: 10;
+    }
+    .header-column {
+        width: 100%;
+        flex-direction: column;
+        padding: 10px;
+        height: auto;
+        gap: 10px;
+    }
+    .header-menu-bar {
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+    .header-mainlogo {
+        width: 100px;
+        height: 45px;
+    }
+    .header-mainlogo img {
+        height: 80px;
+        margin-top: -18px;
+    }
+    .explore, .header-shop, .header-support {
+        width: 80px;
+        height: 45px;
+        font-size: 11px;
+    }
+    .explore a, .header-shop a, .header-support a {
+        font-size: 11px;
+    }
+    .header-account {
+        width: 100%;
+        margin-left: 0;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+    .header-searchBar {
+        position: relative;
+    }
+    .header-searchBar input {
+        width: 120px;
+    }
+    .header-login button {
+        width: 130px;
+        height: 32px;
+        font-size: 11px;
+    }
+    .header-login img {
+        height: 18px;
+        margin-left: 5px;
+    }
+    .shipping {
+        margin-left: 0;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        padding: 10px;
+    }
+    .points {
+        margin-right: 0;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        padding: 10px;
+    }
+    .shipping-points {
+        flex-direction: column;
+        clear: both;
+    }
+    hr {
+        display: none;
+    }
+    .game-preview {
+        height: auto;
+        padding: 15px 10px;
+        clear: both;
+        position: relative;
+    }
+    .game-information {
+        width: 95%;
+        flex-direction: column;
+        padding: 15px;
+        gap: 15px;
+        position: relative;
+    }
+    .mainpage-game {
+        width: 100%;
+        flex: 1 1 100%;
+    }
+    .card-image {
+        max-width: 100%;
+    }
+    .img-slider {
+        overflow-x: auto;
+        justify-content: flex-start;
+        gap: 8px;
+    }
+    .img-slider img {
+        width: 60px;
+        height: 40px;
+        flex-shrink: 0;
+    }
+    .rated-info p {
+        width: 100%;
+    }
+    .gamecard-name {
+        width: 100%;
+        max-width: 100%;
+        flex: 1 1 100%;
+    }
+    .game-title {
+        padding: 10px;
+        flex: 1 1 100%;
+    }
+    .game-title h1 {
+        font-size: 1.3rem;
+    }
+    .version {
+        flex-direction: column;
+        width: 100%;
+    }
+    .switch2-radius, .switch, .upgrade {
+        width: 100%;
+        height: 45px;
+    }
+    .product-card {
+        width: 100%;
+        max-width: 100%;
+        position: relative;
+    }
+    .product-header {
+        width: 100%;
+        height: auto;
+        padding: 15px;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    .product-header h2 {
+        font-size: 1rem;
+    }
+    .product-header p {
+        font-size: 0.85rem;
+    }
+    .arrow {
+        position: relative;
+        right: auto;
+        top: auto;
+        width: 40px;
+        height: 40px;
+        flex-shrink: 0;
+        align-self: flex-start;
+    }
+    .product-options {
+        width: 100%;
+        position: relative;
+        margin-top: 10px;
+    }
+    .option-highlight {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .sale {
+        width: 100%;
+        height: auto;
+        padding: 8px;
+    }
+    .price {
+        width: 100%;
+        margin-right: 0;
+        justify-content: flex-start;
+    }
+    .price h3 {
+        font-size: 1.8rem;
+    }
+    .sale-price {
+        margin-top: 0;
+        align-self: center;
+    }
+    .gamePrice {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .download {
+        width: 100%;
+    }
+    .download-icon i {
+        margin-left: 50px;
+    }
+    .button-download {
+        width: 100%;
+    }
+    .directdownload-info {
+        width: 100%;
+    }
+    .flex-section {
+        height: auto;
+        padding: 20px 0;
+        clear: both;
+    }
+    .features {
+        width: 90%;
+        height: auto;
+        padding: 15px;
+    }
+    .feature-device {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 0;
+    }
+    .backgroundimage {
+        height: auto;
+        min-height: 300px;
+        background-size: cover;
+        clear: both;
+        position: relative;
+        overflow: hidden;
+    }
+    .enhanced {
+        height: auto;
+        min-height: auto;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+        gap: 20px;
+        position: relative;
+    }
+    .enhanced-info {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        padding: 20px;
+        position: relative;
+        z-index: 2;
+    }
+    .enhanced-info h2 {
+        font-size: 1.3rem;
+    }
+    .img-switch {
+        width: 100%;
+        max-width: 100%;
+        position: relative;
+        overflow: hidden;
+    }
+    .img-switch img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        transform: none;
+        display: block;
+        object-fit: contain;
+    }
+    .item-info {
+        clear: both;
+        position: relative;
+    }
+    .info-padding {
+        width: 90%;
+    }
+    .tags {
+        overflow-x: auto;
+    }
+    .tags button {
+        flex-shrink: 0;
+        font-size: 12px;
+    }
+    .game1 {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .game-info1 {
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .game1-ptag {
+        width: 100%;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .game-style {
+        width: 100%;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .tv-mode, .tabletop, .handheld {
+        flex-direction: row;
+        width: 100%;
+        justify-content: flex-start;
+    }
+    .game1-action a {
+        margin-left: 0;
+    }
+    .game1-online {
+        width: 100%;
+        margin-left: 0;
+    }
+    .game1-system a {
+        margin-left: 0;
+    }
+    .game1-developer a {
+        margin-left: 0;
+    }
+    .game1-lang {
+        width: 100%;
+        margin-left: 0;
+    }
+    .game1-date {
+        margin-left: 0;
+    }
+    .game1-rating {
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .game1-rating p {
+        width: 100%;
+    }
+    .othergames-title {
+        width: 100%;
+        text-align: center;
+        padding: 0 20px;
+    }
+    .other-games {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 15px;
+    }
+    .best-sellers {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 15px;
+    }
+    .digital-card {
+        width: 100%;
+        max-width: 320px;
+        height: auto;
+    }
+    .game-heart {
+        margin-left: auto;
+    }
+    .warning {
+        width: 90%;
+        text-align: center;
+    }
+    .footer {
+        width: 95%;
+        flex-direction: column;
+    }
+    .about-footer, .order-footer, .parents-footer, 
+    .community-footer, .shop-footer, .support-footer,
+    .privacy-footer, .policies-footer {
+        width: 100%;
+    }
+    .final-info {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+        text-align: center;
+    }
+    .final-info p {
+        text-align: center;
+    }
+    .footer-link {
+        width: 100%;
+        text-align: center;
+    }
+    .flag {
+        justify-content: center;
+        width: 100%;
+    }
+}
+/* Very Small (340px) */
+@media only screen and (max-width: 340px) {
+    .header-mainlogo {
+        width: 85px;
+        height: 40px;
+    }
+    .explore, .header-shop, .header-support {
+        width: 70px;
+        font-size: 10px;
+    }
+    .header-searchBar input {
+        width: 100px;
+    }
+    .game-title h1 {
+        font-size: 1.1rem;
+    }
+    .img-slider img {
+        width: 50px;
+        height: 33px;
+    }
+    .price h3 {
+        font-size: 1.5rem;
+    }
+}
+/* Mobile Landscape / Small Tablet (481px - 767px) */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+    header {
+        height: auto;
+        position: relative;
+    }
+    .header-column {
+        width: 100%;
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .header-account {
+        margin-left: 0;
+        width: 100%;
+        justify-content: center;
+    }
+    .shipping {
+        margin-left: 0;
+    }
+    .points {
+        margin-right: 0;
+    }
+    .game-preview {
+        height: auto;
+        clear: both;
+    }
+    .game-information {
+        width: 95%;
+        flex-direction: column;
+    }
+    .mainpage-game {
+        width: 100%;
+    }
+    .gamecard-name {
+        width: 100%;
+        max-width: 100%;
+    }
+    .product-header {
+        position: relative;
+    }
+    .arrow {
+        position: relative;
+        flex-shrink: 0;
+    }
+    .backgroundimage {
+        height: auto;
+        min-height: 400px;
+        clear: both;
+    }
+    .enhanced {
+        height: auto;
+        flex-wrap: wrap;
+    }
+    .img-switch img {
+        width: 100%;
+        max-width: 500px;
+        transform: none;
+    }
+    .info-padding {
+        width: 90%;
+    }
+    .game1-action a,
+    .game1-online,
+    .game1-system a,
+    .game1-developer a,
+    .game1-lang,
+    .game1-date {
+        margin-left: 20px;
+    }
+    .other-games {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .best-sellers {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .footer {
+        width: 95%;
+    }
+    .about-footer, .order-footer, .parents-footer,
+    .community-footer, .shop-footer, .support-footer,
+    .privacy-footer, .policies-footer {
+        width: 45%;
+    }
+    .final-info {
+        flex-wrap: wrap;
+        height: auto;
+    }
+}
+/* Tablet (768px - 1024px) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    
+    header {
+        height: auto;
+    }
+    .header-column {
+        width: 95%;
+        margin: 0 auto;
+        height: auto;
+    }
+    .header-account {
+        margin-left: 50px;
+    }
+    .shipping {
+        margin-left: 50px;
+    }
+    .points {
+        margin-right: 50px;
+    }
+    .game-preview {
+        height: auto;
+    }
+    .game-information {
+        width: 95%;
+        flex-wrap: wrap;
+    }
+    .mainpage-game {
+        width: 100%;
+        flex: 1 1 100%;
+    }
+    .gamecard-name {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+    .backgroundimage {
+        height: auto;
+        min-height: 400px;
+    }
+    .enhanced {
+        flex-wrap: wrap;
+        height: auto;
+        justify-content: center;
+    }
+    .img-switch img {
+        width: 100%;
+        max-width: 600px;
+        transform: none;
+    }
+    .other-games {
+        flex-wrap: wrap;
+    }
+    .best-sellers {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .footer {
+        width: 90%;
+    }
+    .about-footer, .order-footer, .parents-footer,
+    .community-footer, .shop-footer, .support-footer,
+    .privacy-footer, .policies-footer {
+        width: 30%;
+    }
+}
+/* Small Desktop (1025px - 1199px) */
+@media only screen and (min-width: 1025px) and (max-width: 1199px) {
+    .header-column {
+        width: 95%;
+        margin: 0 auto;
+    }
+    .header-account {
+        margin-left: 200px;
+    }
+    .shipping {
+        margin-left: 100px;
+    }
+    .points {
+        margin-right: 100px;
+    }
+    .game-information {
+        width: 95%;
+    }
+    .mainpage-game {
+        width: 95%;
+    }
+    .best-sellers {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
 }
